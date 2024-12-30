@@ -56,7 +56,7 @@ make -C complete_verifier/CPLEX_cuts/
 
 ### Reproducing BICCOS results
 
-Results and log files are stored in the repo, please check `BICCOS_results.ipynb` to get the detailed results.
+Results and log files are stored in the repo, please check `BICCOS_results.ipynb` to get the detailed results. Our experiments are conducted on a server with an Intel Xeon 8468 Sapphire CPU, one NVIDIA H100 NVL GPU (96 GB GPU memory), and 480 GB CPU memory.
 
 All the configs to reproduce the running results are collected in `complete_verifier/exp_configs/BICCOS/` folder, using the December 2024 release of the α,β-CROWN (alpha-beta-CROWN) verifier. Below we show the detailed commands for running each experiments.
 
